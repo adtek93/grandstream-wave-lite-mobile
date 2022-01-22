@@ -1,0 +1,23 @@
+
+<html>
+    <head>
+        <title>QR-Code GSWave</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <script type="text/javascript"  src="funtion-gsw.js"></script><br>
+    </head>
+    <body>
+        <form name="myForm" id="myForm"  onsubmit="return generateQRCode();" action="" method="post" class="col-md-6">
+        <h4><b>QR-Code-Generator For GSWave</b></h4><hr>
+        <b>Step 1: </b> <p> <br>- <b>Tải về</b> file mẫu và <b>chỉnh sửa</b> thông tin số máy nhánh: <a href="https://files.ods.vn/s/2NmdAeKA6gAKQjR/download" target="_blank">Download Here!</a></p>
+        <b>Step 2:</b> <p> <br> - Copy toàn bộ nội dung file mẫu vừa chỉnh sửa <br> - Paste vào ô Generate và nhấn Tạo mã QR: </p>
+        <b>Generate:</b>
+        <div class="cell">
+        <input id="text" type="password" value="" class="col-xs-6 col-sm-6 col-md-6 col-lg-6" required pattern="*" placeholder="Paste vào ô Generate và nhấn submit để tạo mã QR" ><br><br></div>
+        <div><button type="submit" id="send" target="_blank" name="send" class="submitBtn common_btn btn btn-info">Tạo mã QR</button>
+        <input type="reset" value="Reset" class="submitBtn common_btn btn btn-info"></div>
+        </form>
+    </body>
+</html>
