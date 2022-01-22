@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AccountConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:noNamespaceSchemaLocation="qrcode1.xsd" version="1">
+<Account>
+<RegisterServer>example.com:5060</RegisterServer> <!--Nhập IP/domain:Port-->
+<OutboundServer></OutboundServer>
+<UserID>100</UserID>   <!--Thay 100 bằng số máy nhánh của bạn-->
+<AuthID>100</AuthID>   <!--Thay 100 bằng số máy nhánh của bạn-->
+<AuthPass>qiasjkdjq123nadsk</AuthPass> <!--Thay mật khẩu số máy nhánh của bạn-->
+<AccountName>100</AccountName> <!--Thay 100 bằng số máy nhánh của bạn-->
+<DisplayName>100</DisplayName> <!--Thay 100 bằng số máy nhánh của bạn-->
+<Dialplan>{x+|*x+|*++}</Dialplan>
+<RandomPort>0</RandomPort>
+<SecOutboundServer></SecOutboundServer>
+<Voicemail></Voicemail>
+</Account>
+</AccountConfig>
+
+<!--Sau khi nhập xong copy toàn bộ nội dung file paste vào khung Generate QR Code GrandstreamWave: trên web-->
