@@ -9,3 +9,6 @@ Link Download:
 
 Demo:
 https://haona93.github.io/gswave-qrcode/
+
+P/s: We commit to not storing any of your passwords and cannot be held responsible for any password leaks. Thank you!
+
