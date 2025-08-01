@@ -1,4 +1,7 @@
 # Grandstream Wave Lite for Mobile 
+<img width="760" height="504" alt="image" src="https://github.com/user-attachments/assets/18780138-b9ab-4201-b5e7-2eaf2a8b8086" />
+
+<img width="898" height="604" alt="image" src="https://github.com/user-attachments/assets/61f1f53e-df29-454a-b4c2-caab644f067c" />
 
 Link Download:
 
